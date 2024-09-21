@@ -105,7 +105,7 @@ export default function Home() {
         </div>
 
         {notes && (
-          <div className=" w-full py-3 px-2 grid grid-cols-4 gap-4">
+          <div className=" w-full py-3 px-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {notes.map((note) => (
               <div
                 key={note?.title!}
